@@ -1,0 +1,7 @@
+curl -H "Content-Type: application/json" \
+-H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTU0Mzc5Mzc5Mn0.A5xRtkv7l2CR7_gHiTu3LgriCEoARY18iBiYq_XhYOgbsKsJc3rnLIMb-52Q8Gq569wEmMbqUr12m0zxtad9gw" \
+-X POST -d '{
+    "description": "Buy watermelon"
+}'  http://localhost:8080/tasks
+
+curl -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTU0Mzc5Mzc5Mn0.A5xRtkv7l2CR7_gHiTu3LgriCEoARY18iBiYq_XhYOgbsKsJc3rnLIMb-52Q8Gq569wEmMbqUr12m0zxtad9gw" http://localhost:8080/tasks
